@@ -70,7 +70,7 @@ body{
 }
 .banner img{
     align-items: center;
-    height: 350px;
+    height: 400px;
 }
  /* ----------------------section-b------------------------------------
  ---------------------------------------section-b----------- */
@@ -243,4 +243,18 @@ icon section------------------------ */
     border-radius: 3px;
     color: #727272;
     font-size: small;
+}
+
+
+/* responsive    */
+
+@media only screen and (max-width: 576px) {
+    .middle-section{
+        padding: 50px;
+    }
+    .banner img{
+        height: 200px;
+    }
+        
+
 }
