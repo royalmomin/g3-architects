@@ -2,7 +2,48 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+
+.section-a{
+    background-color: rgb(190, 110, 39);
+    padding: 10px;
+}
 .head{
     display: flex;
+    justify-content: space-between;
+}
+
+.menu-bar{
+    display: flex;
+
     
+}
+.title{
+    margin-left: 90px;
+    margin-top: 25px;
+}
+.menu-bar{
+    margin: 0px 100px 00px 0px;
+
+}
+.menu-bar a{
+    text-decoration: none;
+    padding: 25px;
+}
+
+.middle-section{
+    text-align: center;
+    padding: 50px 300px 10px 300px;
+}
+.btn{
+    margin: 15px;
+}
+.banner{
+    text-align: center;
+}
+.banner img{
+    align-items: center;
+    height: 350px;
 }
