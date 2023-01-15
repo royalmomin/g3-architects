@@ -24,9 +24,7 @@ body{
 }
 
 .menu-bar{
-    display: flex;
-
-    
+    display: flex;  
 }
 .menu-bar a{
     color: #727272;
@@ -246,15 +244,48 @@ icon section------------------------ */
 }
 
 
-/* responsive    */
+/* responsive  for Mobile   */
 
 @media only screen and (max-width: 576px) {
     .middle-section{
-        padding: 50px;
+        padding: 5px;
     }
     .banner img{
-        height: 200px;
+        height: 180px;
     }
+    .teams{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        }
         
 
+    .team img{
+        height: 300px;
+
+        justify-content: center;
+        }
+        .section-b{
+            display: inline-block;
+            margin: 25px;
+            text-align: center;
+            
+        } 
+
+/* main section   ----------------------- */
+       
+.main-section{
+    display: inline-block;
+    margin: 10px}
+
+    .fact{
+        margin: 45px 35px;
+        
+    }   
+/* icon   section    */
+
+.icon-section{
+    display: grid;
+    grid-template-columns: repeat(2, ifr);
+    justify-content: center;
+    padding-top: 45px;}
 }
